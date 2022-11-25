@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-sqlite-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvindkumar2575/nodejs-sqlite-rest-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arvindkumar2575/nodejs-sqlite-rest-api/issues"
+  },
+  "homepage": "https://github.com/arvindkumar2575/nodejs-sqlite-rest-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
